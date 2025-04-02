@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Calistoga, Geist, Geist_Mono, Inter } from "next/font/google";
+import { Calistoga, Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 
 const inter = Inter({

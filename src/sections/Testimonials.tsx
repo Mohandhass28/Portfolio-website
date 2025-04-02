@@ -1,7 +1,6 @@
 import Card from "@/components/Card";
 import Image from "next/image";
 import SectionHeader from "@/components/SectionHeader";
-import grainImage from "@/assets/images/grain.jpg";
 import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
 import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
 import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
@@ -95,3 +94,4 @@ export const TestimonialsSection = () => {
     </div>
   );
 };
+

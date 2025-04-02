@@ -1,5 +1,6 @@
 import React from 'react'
 import StartIcon from '@/assets/icons/star.svg'
+import { twMerge } from 'tailwind-merge'
 
 const CardHeader = ({
   title,
@@ -11,7 +12,7 @@ const CardHeader = ({
   className?: string
 }) => {
   return (
-    <div className='flex flex-col'>
+    <div className={twMerge('flex flex-col', className)}>
       <div className='inline-flex items-center gap-2'>
         <StartIcon className='size-9 text-emerald-300' />
         <h3 className='font-serif text-3xl '>{title}</h3>
